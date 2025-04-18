@@ -24,3 +24,24 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+select option {
+  background-color: #000000;
+  color: white;
+}
+
+/* For Firefox */
+select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000;
+}
+
+/* For Chrome/Safari */
+select option:checked {
+  background: #1a1a1a linear-gradient(0deg, #1a1a1a 0%, #1a1a1a 100%);
+}
+
+select {
+  background-color: white;
+  color: black;
+}
