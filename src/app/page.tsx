@@ -1,7 +1,7 @@
 "use client";
 import { useState } from 'react';
 
-export interface FormData {
+interface FormData {
   content: string;
   category: string;
   customCategory?: string;
@@ -26,7 +26,7 @@ export interface FormData {
   };
 }
 
-export const INITIAL_FORM_DATA: FormData = {
+const INITIAL_FORM_DATA: FormData = {
   content: '',
   category: '',
   contentType: '',
